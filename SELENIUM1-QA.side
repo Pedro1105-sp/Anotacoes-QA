@@ -1,0 +1,327 @@
+{
+  "id": "880ffe76-d528-4ad9-9fa9-84ffdb38a324",
+  "version": "2.0",
+  "name": "SELENIUM1-QA",
+  "url": "https://www.ne12.bradesconetempresa.tu.teste.internet",
+  "tests": [{
+    "id": "35418938-5a14-46a8-89fc-92f40bfceb20",
+    "name": "CT001AvançarTela1",
+    "commands": [{
+      "id": "883344e3-4a1d-4e17-8e25-3ce6e3bccdfc",
+      "comment": "",
+      "command": "//ACESSAR SITE",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81eb427b-4d22-434c-96fd-15e5d4258ee1",
+      "comment": "",
+      "command": "open",
+      "target": "/ibpj/angular/aplicacoes/ibpj-fed-contr-familyoffice/familyoffice.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aae1aa1c-467d-4a68-9a52-1ddad8cf7e43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "656x690",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52415388-3dfb-442d-812e-0d6aa9c62861",
+      "comment": "",
+      "command": "//ACESSAR O MENU DADOS DO TITULAR",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61e5dbb8-433a-40e2-befb-0ae8bb07bac5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Incluir Family Office",
+      "targets": [
+        ["linkText=Incluir Family Office", "linkText"],
+        ["css=.ml-40 > .link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Incluir Family Office')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ibpj/angular/aplicacoes/ibpj-fed-contr-familyoffice/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Incluir Family Office')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "675b6b68-e404-4b8a-8704-4edb59acd6c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primario",
+      "targets": [
+        ["css=.btn-primario", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf3fc35-975e-47d0-8004-4c2a7d808afe",
+      "comment": "",
+      "command": "//VALIDAR LAYOUT DA TELA",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "357a17f3-181d-481f-8024-b037e8f24683",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Contratação Family Office",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91bf4825-ffae-4154-a657-0773e5f8a721",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=nome",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28d0d217-7f10-4026-9452-0b15e6eaf206",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=cpf",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73a52a9a-d312-4607-ab0a-00c606ec787b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=telefone",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "360739b1-46a2-4a43-b686-961e70cd9e77",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a21753b-c420-49bb-ae7c-39f4385e84f0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=agencia0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd6e392e-1ce2-42e2-9478-d3c233e8c551",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=conta0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d41372-c44e-4f93-964a-34d913224bbf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn-primario",
+      "targets": [
+        ["css=.btn-primario", "css:finder"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d2f53f-dd66-4da8-a4aa-332e61ab9062",
+      "comment": "",
+      "command": "//CLICAR NO BOTÃO CONTINUAR SEM PREENCHER OS DADOS",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6f8ca2a-cda3-4f3b-98c1-6cce8cfb03b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primario",
+      "targets": [
+        ["css=.btn-primario", "css:finder"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df53632-2d1b-4a1f-be34-619f5958dbc9",
+      "comment": "",
+      "command": "//VALIDAR MENSAGENS DE CAMPO OBRIGATÓRIOS",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e97ba47d-4d8c-4fc8-ad4a-799669aa344c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(1) > .col-5:nth-child(1) .legenda",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-5:nth-child(1) .legenda", "css:finder"],
+        ["xpath=//form/div/div/div/div[2]/p", "xpath:position"]
+      ],
+      "value": "Nome é obrigatório"
+    }, {
+      "id": "071c5796-fb6f-4b99-8b0c-40a15a968c16",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(2) > .col-5:nth-child(1) .legenda",
+      "targets": [
+        ["css=.row:nth-child(2) > .col-5:nth-child(1) .legenda", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/p", "xpath:position"]
+      ],
+      "value": "Telefone é obrigatório"
+    }, {
+      "id": "b56da275-42e1-4a4d-bc24-87191c83cbb9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(3) > .col-5:nth-child(1) .legenda",
+      "targets": [
+        ["css=.row:nth-child(3) > .col-5:nth-child(1) .legenda", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Agência é obrigatório')]", "xpath:innerText"]
+      ],
+      "value": "Agência é obrigatório"
+    }, {
+      "id": "d5338c22-c11b-40bd-9998-95cf799410b3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(1) > .col-5:nth-child(3) .legenda",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-5:nth-child(3) .legenda", "css:finder"],
+        ["xpath=//div[3]/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'CPF é obrigatório')]", "xpath:innerText"]
+      ],
+      "value": "CPF é obrigatório"
+    }, {
+      "id": "3a264ba4-91ff-4016-8239-599f5e6fb8e5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(2) > .col-5:nth-child(3) .legenda",
+      "targets": [
+        ["css=.row:nth-child(2) > .col-5:nth-child(3) .legenda", "css:finder"],
+        ["xpath=//div[2]/div[3]/div/div[2]/p", "xpath:position"]
+      ],
+      "value": "Email é obrigatório"
+    }, {
+      "id": "3d14cc35-97af-4b9e-9f09-bd8c58d63777",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.row:nth-child(3) > .col-5:nth-child(3) .legenda",
+      "targets": [
+        ["css=.row:nth-child(3) > .col-5:nth-child(3) .legenda", "css:finder"],
+        ["xpath=//div[3]/div[3]/div/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Conta é obrigatório')]", "xpath:innerText"]
+      ],
+      "value": "Conta é obrigatório"
+    }, {
+      "id": "cb94a447-27d7-4802-b058-3dd4134b2e49",
+      "comment": "",
+      "command": "//PREENCHER TODOS OS CAMPOS DO FORMS",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72d46449-6183-42fd-a0fa-896a1a017177",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["id=ubnlzwvll4i", "id"],
+        ["name=nome", "name"],
+        ["css=#ubnlzwvll4i", "css:finder"],
+        ["xpath=//input[@id='ubnlzwvll4i']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Pedro Henrique"
+    }, {
+      "id": "7589cd04-8628-48e6-9186-f97575d11e57",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpf",
+      "targets": [],
+      "value": "623.192.939-65"
+    }, {
+      "id": "401ad302-91a3-4405-9b6e-1e4df4b3fff5",
+      "comment": "",
+      "command": "type",
+      "target": "name=telefone",
+      "targets": [],
+      "value": "(11) 98557-6478"
+    }, {
+      "id": "fcc5082d-1d62-442d-bb9c-f769682a647e",
+      "comment": "",
+      "command": "type",
+      "target": "name=agencia0",
+      "targets": [],
+      "value": "3995"
+    }, {
+      "id": "1408ad97-24e2-4f0f-ae59-5ebe4530869e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [],
+      "value": "pedro@teste.com"
+    }, {
+      "id": "e25c43c0-a9d3-4e40-be47-bb4fd3a847b3",
+      "comment": "",
+      "command": "type",
+      "target": "name=conta0",
+      "targets": [],
+      "value": "302354"
+    }, {
+      "id": "9410d764-c513-46f0-8ec1-1dc7fe515a97",
+      "comment": "",
+      "command": "//CLICAR NO BOTÃO CONTINUAR APÓS PREENCHER OS CAMPOS",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fd2dbc0-ed56-4aff-b5da-b18a37d89f72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primario",
+      "targets": [
+        ["css=.btn-primario", "css:finder"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0924754-ef38-49d9-9aec-ea47f8904a67",
+      "comment": "",
+      "command": "//VALIDAÇÃO DA TELA ANTERIOR",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f9b6190-f5d8-4615-94b6-34c4370bebef",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d717d0c7-41b4-4fa4-9622-41093ddae4a7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.brad-title-grande",
+      "targets": [
+        ["css=.brad-title-grande", "css:finder"],
+        ["xpath=//div[9]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Preencha os dados do Family Office')]", "xpath:innerText"]
+      ],
+      "value": "Preencha os dados do Family Office"
+    }]
+  }],
+  "suites": [{
+    "id": "315ca1e9-7b01-479b-bf39-9b70bedfb718",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["35418938-5a14-46a8-89fc-92f40bfceb20"]
+  }],
+  "urls": ["https://www.ne12.bradesconetempresa.tu.teste.internet/"],
+  "plugins": []
+}
